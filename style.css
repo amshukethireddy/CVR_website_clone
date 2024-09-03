@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color:lemonchiffon;
+background-size: cover;
+}
+header{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    
+}
+header .logo{
+    float:left;
+}
+ header .logo img{
+    width: 150px;
+    /*background-color: maroon;*/
+}
+header nav{
+    margin-left:100px;
+}
+header nav ul{
+    list-style:none;
+
+}
+header nav ul li{
+    border:2px;
+    width:120px;
+    height:40px;
+    float:left;
+    text-align: center;
+    line-height: 30px;
+    background-color:darkkhaki ;
+    margin-right:10px ;
+    border-radius: 10px;
+     margin:10px;
+     
+
+}
+header nav ul li a{
+    color:black;
+    text-decoration:none ;
+    font-size: 15px;
+    text-transform:uppercase ;
+    display:block;
+}
+
+header nav ul li  :hover{
+    background-color:khaki ;
+    
+}
+
+/*header nav ul li ul{
+    display:none;
+}
+
+header nav ul li ul li:hover{
+    background-color:khaki ;
+}
+
+
+header nav ul li:hover ul {
+    display: block;
+}
+header nav ul li ul li a{
+    color:black;
+    text-decoration:none ;
+    font-size: 15px;
+    text-transform:uppercase ;
+    display:block;
+}
+*/
+h1{
+    color:white;
+    background-color:maroon;
+    text-align:100px;
+    line-height:100px;
+}
+footer{
+    text-align: center;
+}
+p{
+    display: block;
+}
+img{
+    width: 250px;
+}
+table{
+    /*border-color:darkkhaki;
+    border-style: double;
+    border-width: medium;
+    border-radius: 10px;*/
+    border: 10px  double darkkhaki ;
+    border-width: medium;
+    
+}
+/*main .vision{
+    clear: left;
+    vertical-align: middle;
+    table-layout:auto ;
+    
+
+}*/
+.flexContainer{
+    clear:both;
+    display:flex;
+    border:  double darkkhaki;
+    height:300px;
+    flex-direction: row;
+    gap:5px;
+}
+.flexItem{
+    width:200px;
+    height:200px;
+    border:double darkkhaki;
+    margin:50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-property: all;
+    transition-duration: 5s;
+   /* animation: flexItem 2s infinite;*/
+
+     
+
+
+
+}
+.flexItem p{
+    font-size: small;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.flexItem:hover{
+    animation: flexItem 2s infinite;
+    color:white;
+    text-decoration: underline;
+    text-decoration-color:white ;
+   
+}
+@keyframes flexItem {
+    from{
+        background-color: darkkhaki;
+       
+    }
+    to{
+        background-color:maroon;
+        border-radius: 20%;
+        transform:scale(1);
+     }
+}
+.card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+    max-width:300px;
+    margin:auto;
+    text-align:center;
+}
+.card img{
+    margin-top:10px;
+}
+.title{
+    color:brown;
+    font-size:18px;
+}
+button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+    background-color: #323030;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size:18px;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color:black;
+}
+button :hover, a :hover{
+    opacity: 0.7;
+
+}
+
+
+  .fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa:hover {  
+    opacity: 0.7;  
+}  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #e6299b;  
+    color: white;  
+  }
+ 
+ 
+   
+
+
